@@ -1,0 +1,14 @@
+section {
+  border: 1px solid black;
+  width: 50vw;
+  margin: 40px auto;
+  font-size: 30px;
+}
+section ul {
+  list-style-type: "\1F34D";
+  padding: 30px;
+}
+section ul li {
+  border: 1px solid #ccc;
+  list-style-position: inside;
+}

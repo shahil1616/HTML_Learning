@@ -1,0 +1,8 @@
+/* Start with */
+a[href^="https"] {
+  color: red;
+}
+/* Ends With */
+a[href$="in"] {
+  color: green;
+}

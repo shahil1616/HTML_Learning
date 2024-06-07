@@ -1,0 +1,39 @@
+/* Element Selector */
+h1 {
+  color: rgb(23, 246, 246);
+  border: 4px solid red;
+  background-color: yellow;
+}
+/* ID selector */
+#special {
+  color: blueviolet;
+  font-size: 20px;
+  text-decoration: underline;
+}
+/* Class Selector */
+.one {
+  color: orangered;
+  font-weight: bold;
+}
+.two {
+  color: green;
+  font-size: 24px;
+}
+.three {
+  text-decoration: underline;
+}
+
+/* Attribute Selector */
+input[type="text"] {
+  background-color: aquamarine;
+}
+a[href="https://www.google.com/"]
+{
+  font-weight: bold;
+  color: red;
+  font-size: 30px;
+}
+/* Universal Selector */
+* {
+  border: 1px solid green;
+}

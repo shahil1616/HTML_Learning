@@ -1,0 +1,21 @@
+p {
+  /* Dimensions --> Height and Width */
+  width: 400px;
+  /* Border */
+  border: 2px green solid;
+  /*  Margin */
+  /* margin: 40px; */
+  /* margin-top: 30px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-left: 20px; */
+  /* margin top right bottom left */
+  /* margin: 30px 20px 30px 20px; */
+  /* it will be 40 for top and bottom */
+  /* margin: 40px 50px; */
+  /* 40 is for top and bottom auto will send it in centre from left and right */
+  margin: 40px auto;
+  /* Padding */
+
+  padding: 50px;
+}

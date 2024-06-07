@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+section {
+  border: 10px solid #ccc;
+  width: 75vw;
+  height: 50vw;
+  margin: 30px auto;
+  padding: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 0.02em;
+  line-height: 1.2rem;
+  overflow-y: scroll;
+}
+img {
+  width: 10vw;
+  float: left;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+#sp {
+  clear: left;
+}
+hr {
+  margin: 20px 0px;
+}
+
+hr {
+  overflow: visible; /* For IE */
+  height: 30px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+hr:before {
+  /* Not really supposed to work, but does */
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: black;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}

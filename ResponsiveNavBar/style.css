@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: #a8dadc;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+}
+ul {
+  width: 500px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+li {
+  padding: 14px 0px;
+}
+@media screen and (max-width: 480px) {
+  nav,
+  ul {
+    flex-direction: column;
+  }
+}

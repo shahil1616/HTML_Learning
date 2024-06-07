@@ -1,0 +1,13 @@
+h1 {
+  color: red;
+  background-color: aquamarine;
+  border: 3px solid;
+}
+p {
+  width: 800px;
+  border: 1px solid grey;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 40px;
+}

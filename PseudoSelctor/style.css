@@ -1,0 +1,47 @@
+div {
+  width: 200px;
+  height: 300px;
+  background-color: lightgreen;
+  border: 2px solid black;
+}
+div:hover {
+  border-radius: 30%;
+  background-color: red;
+}
+h1:active {
+  background-color: greenyellow;
+  border: 3px solid black;
+}
+input:focus {
+  background-color: aqua;
+}
+ul a:visited {
+  color: green;
+}
+/* ol li:first-child {
+  color: rgb(0, 38, 255);
+}
+ol li:nth-of-type(6) {
+  text-decoration: line-through;
+  color: crimson;
+}
+ol li:nth-of-type(even) {
+  font-weight: bold;
+} */
+/* An+B -->>  A is interval and B is offset or starting point*/
+ol li:nth-of-type(2n + 3) {
+  background-color: cyan;
+}
+
+h1::after {
+  content: "This is CSS";
+  border: 1px dashed black;
+  background-color: greenyellow;
+}
+/* Adding uniqe code */
+h1::before {
+  content: "\2665";
+}
+ul li::before {
+  content: "\260E";
+}

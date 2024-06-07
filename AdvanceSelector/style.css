@@ -1,0 +1,25 @@
+/* Descendent Combinator */
+div p strong {
+  color: red;
+  font-size: 20px;
+}
+p strong {
+  color: purple;
+}
+ul li a[href="http://www.google.com"]
+{
+  color: red;
+}
+
+/*  Child Combinator */
+ol > li {
+  border-top: 3px solid palevioletred;
+}
+/* Adjacent Sibling combintor forword  me select krega */
+h4 + p {
+  background-color: lightgreen;
+}
+/* General sibling  forword dection me select krega*/
+section div ~ p {
+  background-color: yellow;
+}
